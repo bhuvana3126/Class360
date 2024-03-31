@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_fragment"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/marks_fragment"
+        android:title="Marks"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/bookmark_add_24"/>
+
+    <item
+        android:id="@+id/fees_payments_fragment"
+        android:title="Fee Payments"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/absent_fragment"
+        android:title="Absents"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/bookmark_add_24"/>
+
+</menu>

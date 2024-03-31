@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Class360</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="stu_name">Student Name</string>
+    <string name="school_name">School Name</string>
+    <string name="dob">DOB</string>
+    <string name="parent_name">Parent\'s Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="total_absents_in_year">Total Absents in Year</string>
+    <string name="classes">Class</string>
+    <string name="fee">Fee</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="due_amount">Due Amount</string>
+    <string name="marks_info">Marks Information</string>
+    <string name="marks_details">Marks details</string>
+    <string name="exam_name">Exam Name</string>
+    <string name="student">Student</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="percentage">Percentage</string>
+    <string name="result">Result</string>
+    <string name="tel">Telugu</string>
+    <string name="hin">Hindi</string>
+    <string name="eng">English</string>
+    <string name="computers">Computers</string>
+    <string name="maths">Maths</string>
+    <string name="science">Science</string>
+    <string name="social_studies">Social Studies</string>
+    <array name="exam_list">
+        <item>Exam 001</item>
+        <item>Exam 002</item>
+        <item>Exam 003</item>
+    </array>
+</resources>

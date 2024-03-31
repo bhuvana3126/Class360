@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.class360.view.HomeFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_home_new">
+
+    </fragment>
+    <fragment
+        android:id="@+id/marks_fragment"
+        android:name="com.example.class360.view.MarksFragment"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_marks">
+    </fragment>
+    <fragment
+        android:id="@+id/fees_payments_fragment"
+        android:name="com.example.class360.view.FeesPaymentsFragment"
+        android:label="fragment_fees_payments"
+        tools:layout="@layout/fragment_fees_payments">
+    </fragment>
+    <fragment
+        android:id="@+id/absent_fragment"
+        android:name="com.example.class360.view.AbsentFragment"
+        android:label="fragment_absent"
+        tools:layout="@layout/fragment_absent">
+    </fragment>
+</navigation>
